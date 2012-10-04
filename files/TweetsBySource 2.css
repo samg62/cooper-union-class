@@ -1,0 +1,57 @@
+/* a border for each div*/
+
+#iPhone {
+    border:1px solid grey;
+    height: 25px;
+    width: 200px;
+    margin: 25px;
+    float:left;
+    padding: 5px;
+}
+
+
+#Android {
+    border:1px solid grey;
+    height: 25px;
+    width: 200px;
+    margin: 25px;
+    margin-left: 30px; 
+    float: left;
+    padding: 5px;
+}
+
+#Web {
+    border:1px solid grey;
+    height: 25px;
+    width: 200px;
+    margin: 25px;
+    margin-left: 30px;
+    float: left;
+    padding: 5px;
+}
+#Other {
+    border:1px solid grey;
+    height: 25px;
+    width: 200px;
+    margin: 25px;
+    margin-left: 30px;
+    float: left;
+    padding: 5px;
+}
+
+
+#iPhoneList {
+    color:blue;
+}
+
+#AndroidList {
+    color:green;
+}
+
+#WebList {
+    color:purple;
+}
+
+#OtherList {
+    color:orange;
+}
