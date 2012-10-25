@@ -36,9 +36,11 @@
 				// "For all properties of response 'twitterData.results', the key will be 'index' and its value will
 				// be 'tweet'."
 				
-				debugger;
-				$.each(response, function(i, tweet){
+				//debugger;
+				console.log(response)
+				$.each(response.results, function(i, tweet){
 				
+					console.log(tweet);
 					
 					var text = tweet.text;
 					var source = tweet.source;
@@ -46,7 +48,7 @@
 				
 					console.log(source);
 				
-	
+				});	
 					
 			},			
 			error: function(){
