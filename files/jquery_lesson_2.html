@@ -45,8 +45,11 @@
 					var text = tweet.text;
 					var source = tweet.source;
 			
-				
 					console.log(source);
+					
+					$('#Source').append('<p>' + tweet['source'] + '</p>');
+					
+					
 				
 				});	
 					
@@ -65,8 +68,8 @@
 </head>
 
 <body>
-	<ul id="iPhone"></ul>
-	<ul id="tweets"></ul>
+
+	<p id= "Source" >Source of tweet goes here</p>
 	
 
 </body>
